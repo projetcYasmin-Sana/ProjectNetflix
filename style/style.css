@@ -1,0 +1,8 @@
+.boxed{
+    border: 1px solid rgb(173, 4, 4) ;
+    background-color:red;
+    width: 65px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+}
