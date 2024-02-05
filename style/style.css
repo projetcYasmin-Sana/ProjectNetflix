@@ -1,8 +1,36 @@
-.boxed{
-    border: 1px solid rgb(173, 4, 4) ;
-    background-color:red;
-    width: 65px;
-    height: 60px;
-    text-align: center;
-    border-radius: 15px;
+@import url(/ProjectNetflix/style/color.css);
+@import url(/ProjectNetflix/style/dimension.css);
+@import url(/ProjectNetflix/style/text.css);
+@import url(/style/text.css);
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  input,
+  label {
+    margin: 0.4rem 0;}
+.layer{
+width: 1685px;
+height: 600px;
+top: -2750px;
+left: -1044px;
+}
+.logo img {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.b-sign{
+  background-color:#e10011 ;
+  border-radius: 5px;
+  text-align: center;
+}
+.dflex{
+  display: flex;
+  justify-content: center;
 }
