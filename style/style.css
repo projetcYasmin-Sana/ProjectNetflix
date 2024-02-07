@@ -34,3 +34,106 @@ left: -1044px;
   display: flex;
   justify-content: center;
 }
+
+.layer-Sign{
+  width: 1700px;
+  height: 800px;
+  top: -2750px;
+  left: -1030px;
+  }
+.sign-c {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 4px;
+  padding: 70px;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .75);
+}
+.h2{
+  color: #fff;
+  font-size: 2rem;
+}
+.sign-c form {
+  margin: 25px 0 65px;
+}
+form .pass-c {
+  height: 50px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.pass-c input {
+  height: 100%;
+  width: 100%;
+  background: #f2eeee;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0 20px;
+}
+.pass-c input{
+  background:#d9d9d9 ;
+  padding: 16px 20px 0;
+}
+.pass-c label {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+  color: #030303;
+  transition: all 0.1s ease;
+}
+.pass-c input:is(:focus, :valid)~label {
+  font-size: 0.75rem;
+  transform: translateY(-130%);
+}
+form button {
+  width: 100%;
+  padding: 16px 0;
+  font-size: 1rem;
+  background: #e50914;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  margin: 25px 0 10px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+form button {
+  background: #c40812;
+}
+
+.sign-c {
+  color: #fdfbfb;
+}
+.help {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.remember-me {
+  display: flex;
+  margin-right: 5px;
+  color: darkgrey;
+}
+@media (max-width: 740px) {
+  body::before {
+      display: none;
+  }
+
+
+  .sign-c {
+      width: 100%;
+      top: 43%;
+      margin: 25px 0 40px;
+      display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  }
+}
