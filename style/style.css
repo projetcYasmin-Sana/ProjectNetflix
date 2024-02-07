@@ -51,7 +51,7 @@ left: -1044px;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, .75);
 }
-. h2 {
+.h2{
   color: #fff;
   font-size: 2rem;
 }
@@ -127,6 +127,7 @@ form button {
       display: none;
   }
 
+
   .sign-c {
       width: 100%;
       top: 43%;
@@ -135,4 +136,4 @@ form button {
   margin-top: 15px;
   text-decoration: none;
   }
-  
+}
