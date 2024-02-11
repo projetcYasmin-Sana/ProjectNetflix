@@ -39,19 +39,18 @@ left: -1044px;
 }
 
 .layer-Sign{
-  width: 1700px;
-  height: 800px;
+  width: 1600px;
+  height: 650px;
   top: -2750px;
   left: -1030px;
   }
 .sign-c {
-  position: absolute;
   left: 50%;
   top: 50%;
   border-radius: 4px;
   padding: 70px;
   width: 450px;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   background: rgba(0, 0, 0, .75);
 }
 .h2{
@@ -59,9 +58,9 @@ left: -1044px;
   font-size: 2rem;
 }
 .sign-c form {
-  margin: 25px 0 65px;
+  margin: 25px 0 70px;
 }
-form .pass-c {
+ .pass-c {
   height: 50px;
   position: relative;
   margin-bottom: 16px;
@@ -76,10 +75,7 @@ form .pass-c {
   font-size: 1rem;
   padding: 0 20px;
 }
-.pass-c input{
-  background:#d9d9d9 ;
-  padding: 16px 20px 0;
-}
+
 .pass-c label {
   position: absolute;
   left: 20px;
@@ -90,17 +86,13 @@ form .pass-c {
   color: #030303;
   transition: all 0.1s ease;
 }
-.pass-c input:is(:focus, :valid)~label {
-  font-size: 0.75rem;
-  transform: translateY(-130%);
-}
-form button {
+
+ button {
   width: 100%;
   padding: 16px 0;
   font-size: 1rem;
   background: #e50914;
   color: #fff;
-  font-weight: 500;
   border-radius: 4px;
   border: none;
   outline: none;
@@ -108,7 +100,7 @@ form button {
   cursor: pointer;
   transition: 0.1s ease;
 }
-form button {
+ button {
   background: #c40812;
 }
 
@@ -125,18 +117,69 @@ form button {
   margin-right: 5px;
   color: darkgrey;
 }
-@media (max-width: 740px) {
-  body::before {
-      display: none;
-  }
+ 
+.accordion-button {
+  background: #696969;
+   
+}
 
+.accordion-fac-list{
 
-  .sign-c {
-      width: 100%;
-      top: 43%;
-      margin: 25px 0 40px;
-      display: block;
-  margin-top: 15px;
+ justify-content: center;
+  display: block;
+  margin-top: 60px;
+  margin-left: 620px;
+
+}
+.accordion{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  white-space: nowrap;
+  background: #696969;
+  width: 80vh; 
+  height:50px;
+  align-items: center;
+
+}
+.anser{
+  background: #696969; 
+  color: #fff;
+   width: 80vh;
+   height:120px;
+   margin-top: 2px;
+}
+.get{
+height:50px ;
+margin-left: 10px;
+}
+.mail{
+  background: #696969;
+
+}
+::placeholder{
+  color: #000;
+}
+.link{
   text-decoration: none;
-  }
+  color: #696969;
+}
+.Call-Us{
+  color: #696969;
+  padding-top: 50px; 
+  padding-left: 170px;
+}
+.footer{
+  height: 300px;
+   background: transparent;
+    background-color: #000;
+}
+
+.list li.valid i{
+  font: size 1.2rem;
+  color:#aaa;
+}
+.list li.valid span {
+  color: #e10011;
 }
