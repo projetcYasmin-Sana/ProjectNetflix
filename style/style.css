@@ -1,3 +1,6 @@
+.Playbtn{
+    margin-bottom: 0 !important;
+    white-space:nowrap ;}
 @import url(/ProjectNetflix/style/color.css);
 @import url(/ProjectNetflix/style/dimension.css);
 @import url(/ProjectNetflix/style/text.css);
