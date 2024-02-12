@@ -7,25 +7,50 @@
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/color.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body>
-    <div class="bg-img layer-Sign";>
-        <nav class="d-flex justify-content-start" style="padding-top: 20px; padding-left: 20px;">
-            <div class="logo " onmousedown="">
-                <img src="/assets/pngwing 1.png" alt="netflix">
-            </div>
-         </nav>
+<body style="height:100vh" class="bg-img1 ">
+    <nav class="d-flex justify-content-start" style="padding-top: 20px; padding-left: 20px;">
+        <div class="logo " onmousedown="">
+            <img src="/assets/pngwing 1.png" alt="netflix">
+        </div>
+     </nav>
+    <div class="layer-Sign d-flex justify-content-center mb-4" >
+       
             <div class="sign-c">
                 <h2>Sign In</h2>
                 <form>
                     <div class="pass-c">
-                        <input type="text" required>
-                        <label>Email or phone number</label>
+                        <input type="text" required placeholder="Email adress or phone number">
                     </div>
                     <div class="pass-c">
-                        <input type="password" required>
-                        <label>Password</label>
-                    
+                        <input class="password " type="password" placeholder="Password">
+                        <label class="eys" style="padding-left: 250px; padding-bottom: 10px;"><i class="fa-solid fa-eye"></i></label>
+                    </div>
+                    <div class="content">
+                        <p>pass word must contains:</p>
+                        <ul class="list">
+                             <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>at least 8 chacracers lenght </span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>at least 1 number (0...9)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 1 lowercase letter(a...z) </span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 1 special symbol(!...$) </span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>at least 1 uppercase letter (A...Z) </span>
+                            </li>
+                             </ul>
                     </div>
                     <button type="submit">Sign In</button>
                     <div class="help"> 
@@ -35,12 +60,47 @@
                         </div>
                         <a href="#" style="color: darkgray;">Need help?</a>
                     </div>
-                </form>
-                <p style="color: darkgrey;">New to Netflix? <a href="#" style="color: ghostwhite; font-size: large;">Sign up now</a></p>
-                <p style="color: darkgrey;font-size: small;">
+                    <div style="padding-top: 30px;">
+                    <p style="color: darkgrey;">New to Netflix? <a href="/pages/sign-up.html" style="color: ghostwhite; font-size: large;">Sign up now</a></p>
+                    <p style="color: darkgrey;font-size: small;">
                     This page is protected by Google reCAPTCHA to ensure you're not a bot. 
-                    <a href="#">Learn more.</a>
-                </p>
+                    <a href="#">Learn more.</a></p>
+                   </div>
+                </form>
+                
+    
+    </div>
+    
+</div>
+<div style="padding-top: 100px;">
+    <footer class="footer">
+        <p class="Call-Us">Questions? Call Us.</p>
+        <div class="d-flex justify-content-around">
+          <div > 
+              <ul><a class="link" >FAQ</a></ul>
+              <ul><a class="link" href="">Terms Of Use</a></ul>
+          </div>
+          <div>
+              <ul><a class="link" href="">Cancel Membership</a></ul>
+              <ul><a class="link" href="">Privacy</a></ul>
+         </div>
+          <div>
+            <ul><a class="link" href="">Help Center</a></ul>
+            <ul><a class="link"  href="">Cookie Preference </a></ul> 
+          </div>
+          <div>
+          <ul><a class="link" href="">Netflix Shop</a></ul>
+          <ul><a class="link" href="">Impressum</a></ul>
+          </div>
+       </div>
+      <div style="padding-top: 10px; padding-left: 165px;">
+       <button style="background: #000;border-style: ridge ; width: 120px; color: #696969;"><i class="fas fa-globe text-white p-1"></i>English<i class="fa-solid fa-caret-down p-2"></i></button>
+      </div>
+      </div>
+
+    </footer>
+</div>
     <script src="/javascript/main.js"></script>
 </body>
+
 </html>

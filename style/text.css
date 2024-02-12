@@ -19,5 +19,8 @@
     top:50% ;
     background-color:#e10011 ;
     border-radius: 5px;
+    color: #fff;
 }
-
+.bg-img1{
+    background-image:url(/assets/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ 1.png);
+}
