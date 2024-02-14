@@ -35,7 +35,15 @@
         }
         
         }
+        .navBar1 .mylinks {
+            display: none;
+          }
 
+
+          .imag:hover{
+            transform: scale(1.1);
+          }
+          
 
 
 

@@ -47,20 +47,20 @@ index= 0
 for (index;index<5;index++){
 
     $('#action').append(`
-    <a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2" ></a>`)
+    <a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px; " class="py-2 imag" ></a>`)
     
 }
 index=5
 for (index;index<10;index++){
 
-    $('#Comedy').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"    style="width:297px;" class="py-2"></a>`)
+    $('#Comedy').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"    style="width:297px;" class="py-2 imag"></a>`)
     
 }
 
 index=10
 for (index;index<15;index++){
 
-    $('#Romance').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}" style="width:297px;" class="py-2"></a>`)
+    $('#Romance').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}" style="width:297px;" class="py-2 imag"></a>`)
     
 }
 
@@ -68,7 +68,7 @@ for (index;index<15;index++){
 index=15
 for (index;index<20;index++){
 
-    $('#Drama').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2"></a>`)
+    $('#Drama').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag"></a>`)
     
 }
 
@@ -76,14 +76,14 @@ for (index;index<20;index++){
 index=20
 for (index;index<25;index++){
 
-    $('#SCIENFICTION').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2"></a>`)
+    $('#SCIENFICTION').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag"></a>`)
     
 }
 
 index=25
 for (index;index<30;index++){
 
-    $('#horror').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2"></a>`)
+    $('#horror').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag"></a>`)
     
 }
 
@@ -91,48 +91,41 @@ index= 0
 for (index;index<5;index++){
 
     $('#action1').append(`
-    <a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2" ></a>`)
+    <a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag" ></a>`)
     
 }
 
 index=5
 for (index;index<10;index++){
 
-    $('#Comedy1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"    style="width:297px;" class="py-2"></a> `)
+    $('#Comedy1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"    style="width:297px;" class="py-2 imag"></a> `)
     
 }
 index=10
 for (index;index<15;index++){
 
-    $('#Romance1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}" style="width:297px;" class="py-2"></a> `)
+    $('#Romance1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}" style="width:297px;" class="py-2 imag"></a> `)
     
 }
 index=15
 for (index;index<20;index++){
 
-    $('#Drama1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2"></a> `)
+    $('#Drama1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag"></a> `)
     
 }
 
 index=20
 for (index;index<25;index++){
 
-    $('#SCIENFICTION1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2"></a> `)
+    $('#SCIENFICTION1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag"></a> `)
     
 }
 index=25
 for (index;index<30;index++){
 
-    $('#horror1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2></a> "`)
+    $('#horror1').append(`<a href=${movies[index].link} id="link${index}"><img src=${movies[index].image} alt="movie" loading="lazy"  id="${index}"  style="width:297px;" class="py-2 imag"></a> `)
     
 }
-
-
-
-function myFunction() {
-    var x = document.getElementById("navBar1");
-      x.style.display = "flex";
-    }
 
 
 
