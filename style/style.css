@@ -1,7 +1,27 @@
-@import url(/ProjectNetflix/style/color.css);
-@import url(/ProjectNetflix/style/dimension.css);
-@import url(/ProjectNetflix/style/text.css);
-@import url(/style/text.css);
+
+.bg-img{
+  background-image:url(/assets/Rectangle\ 9\ \(1\).png),url(/assets/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.Position-mail{
+  background-color:hsl(20, 60%, 1%) ;
+ 
+} 
+.b-eng{
+  background: transparent;
+  border-radius: 5px;
+  text-align: center;
+  color: #6a6868;
+ 
+}
+.bg-img1{
+  background-image:url(/assets/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ 1.png);
+  background-repeat:no-repeat;
+  background-size:cover
+}
+
 label {
     display: block;
     font:
@@ -12,7 +32,7 @@ label {
   label {
     margin: 0.4rem 0;}
 .layer{
-width: 1685px;
+/* width: 1685px; */
 height: 600px;
 top: -2750px;
 left: -1044px;
@@ -29,6 +49,8 @@ left: -1044px;
   background-color:#e10011 ;
   border-radius: 5px;
   text-align: center;
+  width: 80px;
+  height: 30px;
 }
 .dflex{
   display: flex;
@@ -36,8 +58,8 @@ left: -1044px;
 }
 
 .layer-Sign{
-  width: 1600px;
-  height: 650px;
+  /* width: 1600px; */
+  height: 750px;
   top: -2750px;
   left: -1030px;
   }
@@ -58,7 +80,7 @@ left: -1044px;
   margin: 25px 0 70px;
 }
  .pass-c {
-  height: 50px;
+  height: 40px;
   position: relative;
   margin-bottom: 16px;
 }
@@ -82,23 +104,6 @@ left: -1044px;
   pointer-events: none;
   color: #030303;
   transition: all 0.1s ease;
-}
-
- button {
-  width: 100%;
-  padding: 16px 0;
-  font-size: 1rem;
-  background: #e50914;
-  color: #fff;
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  margin: 25px 0 10px;
-  cursor: pointer;
-  transition: 0.1s ease;
-}
- button {
-  background: #c40812;
 }
 
 .sign-c {
@@ -135,7 +140,7 @@ left: -1044px;
   color: #fff;
   white-space: nowrap;
   background: #696969;
-  width: 80vh; 
+  width: 70vh; 
   height:50px;
   align-items: center;
 
@@ -143,8 +148,8 @@ left: -1044px;
 .anser{
   background: #696969; 
   color: #fff;
-   width: 80vh;
-   height:120px;
+   width: 70vh;
+   height:130px;
    margin-top: 2px;
 }
 .get{
@@ -173,10 +178,40 @@ margin-left: 10px;
     background-color: #000;
 }
 
-.list li.valid i{
+.list li.valid {
   font: size 1.2rem;
-  color:#aaa;
+  color:green ! important;
 }
 .list li.valid span {
   color: #e10011;
+}
+.button-english{
+  color: #fff;
+  background: #000;
+  border-style: ridge ;
+   width: 120px;
+   height: 40px;
+  padding-top: 2px;
+}
+.button-get-start{
+  top:50% ;
+    background-color:#e10011 ;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.submit{
+  top:50% ;
+    background-color:#e10011 ;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    width: 310px;
+    font-size: 20px;
+
 }

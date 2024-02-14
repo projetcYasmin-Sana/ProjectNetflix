@@ -21,38 +21,14 @@
                 <h2>Sign In</h2>
                 <form>
                     <div class="pass-c">
-                        <input type="text" required placeholder="Email adress or phone number">
+                        <input id="signInEmail" type="text" required placeholder="Email adress or phone number">
                     </div>
                     <div class="pass-c">
-                        <input class="password " type="password" placeholder="Password">
+                        <input class="password " type="password" placeholder="Password" id="signInPw">
                         <label class="eys" style="padding-left: 250px; padding-bottom: 10px;"><i class="fa-solid fa-eye"></i></label>
                     </div>
-                    <div class="content">
-                        <p>pass word must contains:</p>
-                        <ul class="list">
-                             <li>
-                                <i class="fa-solid fa-circle"></i>
-                                <span>at least 8 chacracers lenght </span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle"></i>
-                                <span>at least 1 number (0...9)</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle"></i>
-                                <span>At least 1 lowercase letter(a...z) </span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle"></i>
-                                <span>At least 1 special symbol(!...$) </span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle"></i>
-                                <span>at least 1 uppercase letter (A...Z) </span>
-                            </li>
-                             </ul>
-                    </div>
-                    <button type="submit">Sign In</button>
+    
+                   
                     <div class="help"> 
                         <div class="remember-me">
                             <input type="checkbox" id="remember-me">
@@ -67,6 +43,7 @@
                     <a href="#">Learn more.</a></p>
                    </div>
                 </form>
+                <button class="submit" onclick="signIn()">Sign In</button>
                 
     
     </div>
@@ -100,7 +77,8 @@
 
     </footer>
 </div>
-    <script src="/javascript/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/javascript/signIn.js"></script>
 </body>
 
 </html>
